@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.homepage {
+    background-image: url(images/h-fon.svg), linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0px 0px 12px 12px;
+    padding: 50px 0 60px 0;
+}
+
+.container {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-contact {
+    display: flex;
+    align-items: center;
+}
+
+.nav-contact_blok {
+    margin-right: 10px;
+}
+
+.nav-contact_blok-inner {
+    display: flex;
+}
+
+.nav-contact_blok-link {
+    margin-right: 14px;
+}
+
+.nav-contact_blok-link_a {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-contact_blok-address {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.nav-contact_blok-phone_a {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-contact_blok-icon:hover svg {
+    fill: #F0145A;
+}
+
+.nav-contact_blok-icon:active svg {
+    fill: #24A3FF;
+}
+
+.nav-contact_blok-icon svg {
+    transition: all 0,3 linear;
+    fill: blue;
+}
+
+.nav-site-blok {
+    display: flex;
+}
+
+.nav-site-blok_link {
+    margin-right: 15px;
+}
+
+.nav-site-blok_link:last-child {
+    margin-right: 0;
+}
+
+.nav-site-blok_link_a {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
