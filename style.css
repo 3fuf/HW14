@@ -30,8 +30,7 @@ body {
     align-items: center;
 }
 
-.nav-contact_blok {
-    margin-right: 10px;
+.nav-contact_blok::after {
 }
 
 .nav-contact_blok-inner {
@@ -74,7 +73,7 @@ body {
 
 .nav-contact_blok-icon svg {
     transition: all 0,3 linear;
-    fill: blue;
+    cursor: pointer;
 }
 
 .nav-site-blok {
